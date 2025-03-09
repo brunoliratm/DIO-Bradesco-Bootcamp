@@ -13,7 +13,8 @@ The repository is organized by modules, with each folder containing a specific p
 ```
 DIO-Bradesco-Bootcamp/
 ├── 1-basic-syntax/       
-│   ├── bank-account/   
+│   ├── bank-account/ 
+│   ├──ControlFlowChallenge/
 │   └── ...
 ├── 2-future-module/       
 └── ...
@@ -21,8 +22,9 @@ DIO-Bradesco-Bootcamp/
 
 ## Projects
 
-- 1. [Basic Syntax]()
-  - 1.1 [Bank Account Terminal Application]()
+- 1. [Basic Syntax](./1-basic-syntax)
+  - 1.1 [Bank Account Terminal Application](./1-basic-syntax/bank-account)
+  - 1.2 [Control Flow Challenge](./1-basic-syntax/ControlFlowChallenge)
 
 ## How to Run the Projects
 
