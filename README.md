@@ -12,17 +12,17 @@ The repository is organized by modules, with each folder containing a specific p
 
 ```
 DIO-Bradesco-Bootcamp/
-├── 1-basic-syntax/        # Java fundamentals and basic syntax
-│   ├── bank-account/      # Terminal-based bank account creation
+├── 1-basic-syntax/       
+│   ├── bank-account/   
 │   └── ...
-├── 2-module-name/         # Future module
+├── 2-future-module/       
 └── ...
 ```
 
 ## Projects
 
-- 1. Basic Syntax
-  - 1.1 Bank Account Terminal Application
+- 1. [Basic Syntax]()
+  - 1.1 [Bank Account Terminal Application]()
 
 ## How to Run the Projects
 
