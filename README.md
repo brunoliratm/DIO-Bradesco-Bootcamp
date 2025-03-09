@@ -22,7 +22,7 @@ DIO-Bradesco-Bootcamp/
 
 ## Projects
 
-- 1. [Basic Syntax](./1-basic-syntax)
+- 1 [Basic Syntax](./1-basic-syntax)
   - 1.1 [Bank Account Terminal Application](./1-basic-syntax/bank-account)
   - 1.2 [Control Flow Challenge](./1-basic-syntax/ControlFlowChallenge)
 
