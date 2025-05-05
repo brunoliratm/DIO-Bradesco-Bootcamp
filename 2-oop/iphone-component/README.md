@@ -27,33 +27,40 @@ Este desafio propõe a modelagem e, opcionalmente, a implementação em Java das
 
 ```mermaid
 classDiagram
-  interface ReprodutorMusical {
-    +tocar()
-    +pausar()
-    +selecionarMusica(String musica)
+  class ReprodutorMusical {
+    <<interface>>
+    +tocar() void
+    +pausar() void
+    +selecionarMusica(String musica) void
   }
 
-  interface AparelhoTelefonico {
-    +ligar(String numero)
-    +atender()
-    +iniciarCorreioVoz()
+  class AparelhoTelefonico {
+    <<interface>>
+    +ligar(String numero) void
+    +atender() void
+    +iniciarCorreioVoz() void
   }
 
-  interface NavegadorInternet {
-    +exibirPagina(String url)
-    +adicionarNovaAba()
-    +atualizarPagina()
+  class NavegadorInternet {
+    <<interface>>
+    +exibirPagina(String url) void
+    +adicionarNovaAba() void
+    +atualizarPagina() void
   }
 
-  class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
-    +tocar()
-    +pausar()
-    +selecionarMusica(String musica)
-    +ligar(String numero)
-    +atender()
-    +iniciarCorreioVoz()
-    +exibirPagina(String url)
-    +adicionarNovaAba()
-    +atualizarPagina()
+  class iPhone {
+    +tocar() void
+    +pausar() void
+    +selecionarMusica(String musica) void
+    +ligar(String numero) void
+    +atender() void
+    +iniciarCorreioVoz() void
+    +exibirPagina(String url) void
+    +adicionarNovaAba() void
+    +atualizarPagina() void
   }
+
+  iPhone ..|> ReprodutorMusical
+  iPhone ..|> AparelhoTelefonico
+  iPhone ..|> NavegadorInternet
 ```
