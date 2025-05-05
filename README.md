@@ -14,9 +14,10 @@ The repository is organized by modules, with each folder containing a specific p
 DIO-Bradesco-Bootcamp/
 ├── 1-basic-syntax/       
 │   ├── bank-account/ 
-│   ├──ControlFlowChallenge/
-│   └── ...
-├── 2-future-module/       
+│   └── ControlFlowChallenge/
+├── 2-oop/     
+│   ├── iphone-component/ 
+│   └── digitalbank/  
 └── ...
 ```
 
