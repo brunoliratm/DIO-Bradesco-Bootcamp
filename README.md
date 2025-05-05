@@ -12,12 +12,13 @@ The repository is organized by modules, with each folder containing a specific p
 
 ```
 DIO-Bradesco-Bootcamp/
-├── 1-basic-syntax/       
-│   ├── bank-account/ 
+├── 1-basic-syntax/
+│   ├── bank-account/
 │   └── ControlFlowChallenge/
-├── 2-oop/     
-│   ├── iphone-component/ 
-│   └── digitalbank/  
+├── 2-oop/
+│   ├── iphone-component/
+│   ├── sudoku/
+│   └── digitalbank/
 └── ...
 ```
 
@@ -26,6 +27,10 @@ DIO-Bradesco-Bootcamp/
 - 1 [Basic Syntax](./1-basic-syntax)
   - 1.1 [Bank Account Terminal Application](./1-basic-syntax/bank-account)
   - 1.2 [Control Flow Challenge](./1-basic-syntax/ControlFlowChallenge)
+- 2 [Object-Oriented Programming](./2-oop)
+  - 2.1 [iPhone Component](./2-oop/iphone-component)
+  - 2.2 [Sudoku Game](./2-oop/sudoku)
+  - 2.3 [Digital Bank](./2-oop/digitalbank)
 
 ## How to Run the Projects
 

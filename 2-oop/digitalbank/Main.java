@@ -21,7 +21,7 @@ public class Main {public static void main(String[] args) {
     Conta contaMaria = meuBanco.buscarConta(2);
     if (contaMaria != null) {
         contaMaria.depositar(50.0);
-        contaMaria.sacar(60.0); // Tentativa de saque maior que o saldo
+        contaMaria.sacar(60.0);
         contaMaria.imprimirExtrato();
     }
 
